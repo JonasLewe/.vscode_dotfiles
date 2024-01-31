@@ -1,1 +1,81 @@
-/Users/jonaslewe/Library/Application Support/Code/User/settings.json
+{
+  "editor.lineNumbers": "relative",
+  "workbench.colorTheme": "SynthWave '84",
+  // VIM SETTINGS
+  // What key should `<leader>` map to in remappings?
+  "vim.leader": "<space>",
+  "vim.useSystemClipboard": true,
+  "vim.statusBarColorControl": false,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": [
+        "k",
+        "j"
+      ],
+      "after": [
+        "<ESC>"
+      ]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": [
+        "k",
+        "j"
+      ],
+      "after": [
+        "<ESC>"
+      ]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<leader>",
+        "e"
+      ],
+      "commands": [
+        "workbench.action.toggleSidebarVisibility"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "f"
+      ],
+      "commands": [
+        "revealInExplorer"
+      ],
+    },
+    {
+      "before": [
+        "<leader>",
+        "r",
+        "f"
+      ],
+      "commands": [
+        "fileutils.renameFile"
+      ]
+    }
+  ],
+  "security.workspace.trust.untrustedFiles": "open",
+  "r.lsp.diagnostics": false,
+  "r.plot.useHttpgd": true,
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "editor.minimap.enabled": false,
+  "editor.inlineSuggest.enabled": true,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "editor.accessibilitySupport": "off",
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.formatOnSave": true,
+  },
+  "editor.cursorSurroundingLines": 5,
+  "workbench.list.openMode": "doubleClick",
+  "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
+  "redhat.telemetry.enabled": false,
+}
